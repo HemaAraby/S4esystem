@@ -27,7 +27,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
 const dateFormat = require('dateformat'); 
 const pretty = require('pretty-ms') 
-const prefix = 'a';
+const prefix = '!';
 var table = require('table').table
 var ti={}  
 ,spee={}
@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['ahelp','Type ahelp'];
+    var setGame = ['S4e server','type !help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -89,8 +89,6 @@ ${prefix}avatar/صورتك او صورة الي تمنشنو
 ${prefix}embed/يكرر الي تقولو بشكل حلو
 ${prefix}emoji <any things>/لتحويل اي كلمه تقولها الي ايموجي
 ${prefix}inv/لدعوة البوت الى سيرفرك
-${prefix}support/سيرفر الدعم
-${prefix}contact/ارسال اقتراح او لمراسلة صاحب البوت
 **
   `
 ,`
