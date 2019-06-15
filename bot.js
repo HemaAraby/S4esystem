@@ -178,7 +178,7 @@ ${prefix}voiceonline / لتفعيل روم الفويس اونلاين
 
 
         backwards.on('collect', r => {
-            if (page === 1) return;
+            if (page === 1) return;	
             page--;
             embed.setDescription(pages[page-1]);
             embed.setFooter(`Page ${page} of ${pages.length}`);
@@ -3521,4 +3521,4 @@ client.on('guildMemberAdd', member => {
 return channel.send("")
     }
     )});
-client.login("NTg5NDU3MTE2NzkyNzUwMDgx.XQUM1Q.Lko2mWby9UYj3SSQnkVvMsaYq40")
+client.login("NTg5NDU3MTE2NzkyNzUwMDgx.XQUjfw.ZDr5ASUOWJW6wGY9VL8_iSG-9J8")
